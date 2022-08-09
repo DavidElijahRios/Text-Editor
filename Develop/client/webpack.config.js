@@ -19,7 +19,20 @@ module.exports = () => {
     },
     // TODO: insert plugins
     plugins: [
-      
+  //  generates html file and injects bundles
+      new HtmlWebpackPlugin({
+        template: './index.html',
+        title: 'Contact Cards'
+      }),
+     
+    //  injects service worker
+      new InjectManifest({
+        swSrc: './src-sw.js',
+        swDest: 'src-sw.js',
+      }),
+
+      // Creates a manifest.json file.
+      new WebpackPwaManifest({})
     ],
 
     module: {
