@@ -36,11 +36,11 @@
 
   1) Open up the application and in the provided space you are able to write in text editor. 2) if you click away from the main editor you should be able to keep the information persistent as it is cached in the database. 3) go offline and data should still remain persistent and application will still function.
 
-  ![Screen Shot](Develop/images/screenshot.png)
+  ![Screen Shot](/images/screenshot.png)
 
   Visit deployed site below!
 
-  [Deployed site]()
+  [Deployed site](https://mighty-coast-90871.herokuapp.com/)
 
 
 
